@@ -39,6 +39,7 @@ object SparkMLlib {
     println("Prediction for positive test example: " + model.predict(postTest))
     println("Prediction for negative test example: " + model.predict(negTest))
 
+    sc.stop()
 
 
   }
