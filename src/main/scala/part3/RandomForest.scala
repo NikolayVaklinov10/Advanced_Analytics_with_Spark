@@ -230,6 +230,7 @@ class RunRDF(private val spark: SparkSession) {
       setInputCol("featureVector").
       setOutputCol("indexedVector")
 
+    // the decision tree classifier
     val classifier = new DecisionTreeClassifier().
       setSeed(Random.nextLong()).
       setLabelCol("Cover_Type").
