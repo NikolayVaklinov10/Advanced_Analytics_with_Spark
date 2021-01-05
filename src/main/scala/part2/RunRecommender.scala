@@ -19,6 +19,7 @@ object RunRecommender {
 
 }
 
+
 class RunRecommender(private val spark: SparkSession) {
 
   import spark.implicits._
