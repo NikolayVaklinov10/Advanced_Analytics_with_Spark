@@ -44,6 +44,7 @@ object SparkSQL {
   // | Justin|       20|
   // +-------+---------+
 
+
   // Select people older than 21
   dataframe.filter($"age" > 21).show()
   // +---+----+
