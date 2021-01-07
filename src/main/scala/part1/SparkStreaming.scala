@@ -35,10 +35,6 @@ object SparkStreaming {
     ssc.awaitTermination()
   }
 
-
-
-
-
   def main(args: Array[String]): Unit = {
     wordsCount()
   }
