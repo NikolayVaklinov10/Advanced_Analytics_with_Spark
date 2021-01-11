@@ -10,6 +10,10 @@ libraryDependencies ++= Seq(
 // https://mvnrepository.com/artifact/org.apache.spark/spark-mllib
  "org.apache.spark" %% "spark-mllib" % "3.0.1",
 
-"org.apache.spark" %% "spark-sql" % "3.0.1"
+"org.apache.spark" %% "spark-sql" % "3.0.1",
+
+  // https://mvnrepository.com/artifact/org.scalanlp/breeze
+"org.scalanlp" %% "breeze" % "1.0"
+
 
 )
